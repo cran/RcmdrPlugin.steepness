@@ -1,0 +1,10 @@
+# Rcmdr menus for the steepness package
+
+
+#   type       menu/item      operation/parent          label         command/menu                activation    install?
+menu           steepMenu            topMenu               ""                                     ""                                    ""                      "" 
+item           steepMenu            command               "Steepness Test"             		 Rcmdr.steeptest                       ""                      "packageAvailable('steepness')"
+item           steepMenu            command               "Steepness Plot"                  	 Rcmdr.steepplot                       ""                      "packageAvailable('steepness')"
+item           steepMenu            command               "Help about steepness"	         Rcmdr.help.steepness                  ""                      "packageAvailable('steepness')"
+item           steepMenu            command               "Help about RcmdrPlugin.steepness"     Rcmdr.help.RcmdrPlugin.steepness      ""                      "packageAvailable('steepness')"
+item           topMenu              cascade               "Steepness"                            steepMenu                             ""                      "packageAvailable('steepness')"
