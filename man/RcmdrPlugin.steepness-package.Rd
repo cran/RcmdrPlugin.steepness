@@ -14,8 +14,8 @@
 \tabular{ll}{
 Package: \tab RcmdrPlugin.steepness\cr
 Type: \tab Package\cr
-Version: \tab 0.1\cr
-Date: \tab 2009-10-05\cr
+Version: \tab 0.2\cr
+Date: \tab 2011-14-06\cr
 License: \tab GPL version 2 or newer\cr
 }
 }

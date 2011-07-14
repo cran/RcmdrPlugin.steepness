@@ -3,7 +3,8 @@
 \alias{Rcmdr.help.RcmdrPlugin.steepness}
 \alias{Rcmdr.help.steepness}
 \alias{Rcmdr.steepplot}
-\alias{Rcmdr.steeptest}
+\alias{Rcmdr.steeptestDij}
+\alias{Rcmdr.steeptestPij}
 
 \encoding{UTF-8}
 \description{Internal functions (should not be called by the user) for
