@@ -14,8 +14,8 @@
 \tabular{ll}{
 Package: \tab RcmdrPlugin.steepness\cr
 Type: \tab Package\cr
-Version: \tab 0.2\cr
-Date: \tab 2011-14-06\cr
+Version: \tab 0.3-1\cr
+Date: \tab 2014-08-05\cr
 License: \tab GPL version 2 or newer\cr
 }
 }
@@ -24,6 +24,11 @@ License: \tab GPL version 2 or newer\cr
 David Leiva <dleivaur@ub.edu> & Han de Vries <J.deVries1@uu.nl>
 
 Maintainer: David Leiva <dleivaur@ub.edu>
+}
+
+\examples{
+# Loading steepness plugin in Rcmdr #
+library(RcmdrPlugin.steepness)
 }
 
 \keyword{package}

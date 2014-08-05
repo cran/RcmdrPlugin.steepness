@@ -1,7 +1,7 @@
-13ff0110ee26ad6d71db9c6d13412e42 *DESCRIPTION
-8b4974440164af3cae129b01eb06906a *NAMESPACE
+dbaf72357b2fb2b98f5f15a209e65145 *DESCRIPTION
+2bc5f79fbba8bb90ef0a76fa8869c079 *NAMESPACE
 23c8e33b68ab61f29b763102b99bd962 *NEWS
-f082050c7ae1b2af374cb8368f69635d *R/RcmdrPlugin.steepness.R
+c39d85d093eb83407a1a026fc6c703c5 *R/RcmdrPlugin.steepness.R
 fcbcd7405fba8ee9c4aeb13afb6726f6 *inst/etc/menus.txt
 00d990898ea1d7a1dc78d86951109ca3 *man/RcmdrPlugin.steepness-internal.Rd
-ebd296f373058d6675c7cfb9d2b2da19 *man/RcmdrPlugin.steepness-package.Rd
+4662d305b53c5546b8c0fa45f37af03e *man/RcmdrPlugin.steepness-package.Rd

@@ -26,7 +26,6 @@ if (getRversion() >= '2.15.1')globalVariables(c('top','namefile','datafile',
 'ResultsVariable', 'checkBoxFrame', 'PijVariable'))
 
 Rcmdr.steeptestDij <- function(){
-require(steepness)
 initializeDialog(title=gettextRcmdr("Steepness Test"))
 RandVar <- tclVar("10000")
 RandEntry <- tkentry(top, width="12", textvariable=RandVar)
@@ -107,7 +106,6 @@ dialogSuffix(rows=13, columns=2, focus=RandEntry)
 }
 
 Rcmdr.steeptestPij <- function(){
-require(steepness)
 initializeDialog(title=gettextRcmdr("Steepness Test"))
 RandVar <- tclVar("10000")
 RandEntry <- tkentry(top, width="12", textvariable=RandVar)
@@ -188,7 +186,6 @@ dialogSuffix(rows=13, columns=2, focus=RandEntry)
 }
 
 Rcmdr.steepplot <- function(){
-require(steepness)
 initializeDialog(title=gettextRcmdr("Steepness Plot"))
 checkBoxes(frame="checkboxframe2",boxes="name.options", initialValues="0", labels=gettextRcmdr
           ("            File Includes Row and Column Names"))
@@ -250,13 +247,11 @@ dialogSuffix(rows=6, columns=2, focus=checkboxframe2)
 }
 
 Rcmdr.help.steepness <- function(){
-   require(steepness)
    doItAndPrint("help(\"steepness\")")
    invisible(NULL)
 }
 
 Rcmdr.help.RcmdrPlugin.steepness <- function(){
-   require(steepness)
    doItAndPrint("help(\"RcmdrPlugin.steepness\")")
    invisible(NULL)
 }
